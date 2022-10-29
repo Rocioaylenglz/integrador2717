@@ -37,7 +37,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 15px 30px 15px;
+  padding: 8px 0px 30px 15px;
 }
 
 .navbar-list li {
