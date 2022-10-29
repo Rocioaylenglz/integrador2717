@@ -29,6 +29,7 @@
   .menu-label {
     display: flex;
     cursor: pointer;
+    order: 2;
   }
 
   .menu-label img {
