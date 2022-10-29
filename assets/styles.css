@@ -27,9 +27,10 @@ body {
   min-height: 100vh;
 }
 
-.logo img {
+.logoo img {
   height: 120px;
   width: auto;
+  padding-top: 3px;
 }
 
 .navbar,
