@@ -254,41 +254,6 @@ footer {
   margin-bottom: 10px;
 }
 
-.item-precios {
-  font-family: "Stardos Stencil", cursive;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #43291f;
-}
-
-.item-precios span:first-child {
-  background: #43291f;
-  font-family: "Stardos Stencil", cursive;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: lighter;
-  padding: 5px 10px;
-  font-size: 12px;
-  justify-content: space-between;
-}
-
-.item-precios span:last-child {
-  transition: all 0.3s;
-  background: linear-gradient(to right, #b08968, #f5efe2);
-  font-family: "Stardos Stencil", cursive;
-  gap: 50px;
-  padding: 20px 16px 5px;
-  border-radius: 15px;
-  font-weight: lighter;
-  font-size: 12px;
-}
-
-.item-precios span:last-child:hover {
-  transform: scale(1.1);
-}
-
 /* cafeteria*/
 #fondo {
   width: 100vw;
@@ -341,8 +306,8 @@ footer {
   justify-content: center;
   color: #43291f;
   font-size: 13px;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  font-family: "Stardos Stencil", cursive;
 }
 
 .cafeteria-item img {
@@ -354,68 +319,10 @@ footer {
   margin-bottom: 10px;
 }
 
-/* promos */
-
-#promos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 1200px;
-  margin: auto;
-  margin-bottom: 100px;
-}
-
-.promos-title {
-  display: flex;
-  justify-content: center;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 0px;
-  font-weight: lighter;
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.promos {
-  margin: auto;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  margin-top: 10px;
-}
-.promos-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 5px 20px;
-  height: 212px;
-  width: 283px;
-  border-radius: 20px;
-  box-shadow: 0px 0px 20px 0px #43291f;
-}
-.promos-item h3 {
-  justify-content: center;
-  color: #43291f;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-}
-
-.promos-item img {
-  width: 110px;
-  height: 110px;
-  background-position: center;
-  border-radius: 16px;
-  background-image: contain;
-  margin-bottom: 10px;
-}
+/* precios */
 
 .item-precios {
   display: flex;
-  font-family: "Montserrat", sans-serif;
   align-items: center;
   justify-content: space-between;
   color: #43291f;
@@ -423,11 +330,11 @@ footer {
 
 .item-precios span:first-child {
   background: #43291f;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Stardos Stencil", cursive;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
+  font-weight: lighter;
   padding: 5px 10px;
   font-size: 14px;
   justify-content: space-between;
@@ -436,11 +343,11 @@ footer {
 .item-precios span:last-child {
   transition: all 0.3s;
   background: linear-gradient(to right, #b08968, #f5efe2);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Stardos Stencil", cursive;
   gap: 50px;
   padding: 5px 15px 5px;
   border-radius: 15px;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 14px;
 }
 
