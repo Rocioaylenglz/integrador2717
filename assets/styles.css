@@ -122,8 +122,8 @@ main {
   text-align: center;
   text-decoration: none;
   transition: all 0.3s;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-family: "Stardos Stencil", cursive;
+  font-weight: lighter;
 }
 
 .hero-title a:hover {
@@ -153,47 +153,6 @@ main {
   text-align: center;
 }
 
-footer {
-  background: #43291f;
-  color: #c6ac8f;
-  display: flex;
-  width: 100vw;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding: 20px 0;
-  gap: 70px;
-}
-
-.footer-1989 h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 900;
-  margin-top: auto;
-  padding: 15px 0;
-  gap: 70px;
-}
-
-.contact-us {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.contact-us p {
-  font-family: "Montserrat", sans-serif;
-}
-.derechos {
-  padding: 15px 0;
-  gap: 15px;
-  color: #c6ac8f;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.derechos p {
-  font-family: "Montserrat", sans-serif;
-}
 /*libreria */
 
 #libreria {
@@ -353,4 +312,47 @@ footer {
 
 .item-precios span:last-child:hover {
   transform: scale(1.1);
+}
+
+/*footer*/
+footer {
+  background: #43291f;
+  color: #c6ac8f;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+  gap: 70px;
+}
+
+.footer-1989 h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: auto;
+  padding: 15px 0;
+  gap: 70px;
+}
+
+.contact-us {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.contact-us p {
+  font-family: "Montserrat", sans-serif;
+}
+.derechos {
+  padding: 15px 0;
+  gap: 15px;
+  color: #c6ac8f;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.derechos p {
+  font-family: "Montserrat", sans-serif;
 }
