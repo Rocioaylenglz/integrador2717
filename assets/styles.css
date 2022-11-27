@@ -396,7 +396,15 @@ footer {
   font-weight: bold;
 }
 
+.form__container span {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  margin: 68px;
+}
+
 .form__container p {
+  font-size: 12px;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
 }
