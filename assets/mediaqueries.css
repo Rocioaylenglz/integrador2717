@@ -71,6 +71,10 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  .form__container {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -88,6 +92,10 @@
   #cafeteria {
     align-items: center;
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .form__container {
     justify-content: center;
   }
 }
