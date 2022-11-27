@@ -98,4 +98,8 @@
   .form__container {
     justify-content: center;
   }
+
+  .span {
+    text-align: center;
+  }
 }
