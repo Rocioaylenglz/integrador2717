@@ -73,6 +73,7 @@
   }
 
   .form__container {
+    align-items: center;
     justify-content: center;
   }
 }
@@ -96,6 +97,7 @@
   }
 
   .form__container {
+    align-items: center;
     justify-content: center;
   }
 }
