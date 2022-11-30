@@ -8,6 +8,8 @@
   font-family: "Stardos Stencil", cursive;
 }
 
+/*header*/
+
 header {
   background: linear-gradient(to right, #43291f, #f5efe2);
   width: 100%;
@@ -36,6 +38,8 @@ body {
   width: auto;
   padding-top: 3px;
 }
+
+/*navbar*/
 
 .navbar,
 .navbar-list {
